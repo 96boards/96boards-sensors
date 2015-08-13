@@ -1,9 +1,9 @@
-(kicad_pcb (version 4) (host pcbnew "(2015-06-18 BZR 5783)-product")
+(kicad_pcb (version 4) (host pcbnew no-vcs-found-product)
 
   (general
-    (links 215)
+    (links 0)
     (no_connects 0)
-    (area 98.403229 70.6907 187.233753 131.445)
+    (area 101.549999 72.949999 186.649493 127.050001)
     (thickness 1.6)
     (drawings 30)
     (tracks 1113)
@@ -2279,17 +2279,17 @@
     (pad "" np_thru_hole circle (at -1 -1) (size 1.2 1.2) (drill 1.2) (layers *.Cu *.Mask B.SilkS))
   )
 
-  (module Sensors:USB_MICRO_B_ST-USB-001E (layer F.Cu) (tedit 55C9F0F8) (tstamp 55C671C2)
+  (module Sensors:USB_MICRO_B_ST-USB-001E (layer F.Cu) (tedit 55CCDC29) (tstamp 55C671C2)
     (at 158.75 73.406 180)
     (descr "USB Micro-B 5-pin SMD connector")
     (tags "USB, Micro-B, connector")
     (path /55C60FA5)
     (attr smd)
-    (fp_text reference CONSOLE (at 6.096 -3.556 270) (layer F.SilkS)
+    (fp_text reference CON1 (at 6.096 -3.556 270) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value microUSB-B (at 0 2 180) (layer F.SilkS) hide
-      (effects (font (size 0.5 0.5) (thickness 0.125)))
+    (fp_text value CONSOLE (at 6.096 -3.556 270) (layer F.SilkS)
+      (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 3.7 -0.7) (end 3.7 0.5) (layer F.SilkS) (width 0.15))
     (fp_line (start 3.7 -4) (end 3.7 -2.3) (layer F.SilkS) (width 0.15))
