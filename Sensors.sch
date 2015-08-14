@@ -1079,21 +1079,21 @@ Text GLabel 3250 6150 2    60   BiDi ~ 0
 GPIO-C/5
 Text GLabel 3250 6250 2    60   BiDi ~ 0
 GPIO-D/5
-Text GLabel 1850 6950 0    60   Input ~ 0
+Text GLabel 1850 6950 0    60   BiDi ~ 0
 I2C0_SDA
-Text GLabel 1850 7050 0    60   Input ~ 0
+Text GLabel 1850 7050 0    60   BiDi ~ 0
 I2C0_SCL
-Text GLabel 1850 7150 0    60   Input ~ 0
+Text GLabel 1850 7150 0    60   BiDi ~ 0
 I2C1_SDA
-Text GLabel 1850 7250 0    60   Input ~ 0
+Text GLabel 1850 7250 0    60   BiDi ~ 0
 I2C1_SCL
-Text GLabel 3250 6950 2    60   Output ~ 0
+Text GLabel 3250 6950 2    60   BiDi ~ 0
 I2C0_SDA/5
-Text GLabel 3250 7050 2    60   Output ~ 0
+Text GLabel 3250 7050 2    60   BiDi ~ 0
 I2C0_SCL/5
-Text GLabel 3250 7150 2    60   Output ~ 0
+Text GLabel 3250 7150 2    60   BiDi ~ 0
 I2C1_SDA/5
-Text GLabel 3250 7250 2    60   Output ~ 0
+Text GLabel 3250 7250 2    60   BiDi ~ 0
 I2C1_SCL/5
 Text GLabel 900  6850 0    60   Input ~ 0
 +1V8
@@ -1162,13 +1162,13 @@ F 3 "" H 4000 7200 60  0000 C CNN
 	1    4000 7200
 	1    0    0    -1  
 $EndComp
-Text GLabel 5400 6200 0    60   Output ~ 0
+Text GLabel 5400 6200 0    60   BiDi ~ 0
 I2C0_SCL
-Text GLabel 5400 6300 0    60   Output ~ 0
+Text GLabel 5400 6300 0    60   BiDi ~ 0
 I2C0_SDA
-Text GLabel 5400 6400 0    60   Output ~ 0
+Text GLabel 5400 6400 0    60   BiDi ~ 0
 I2C1_SCL
-Text GLabel 5400 6500 0    60   Output ~ 0
+Text GLabel 5400 6500 0    60   BiDi ~ 0
 I2C1_SDA
 Text GLabel 5400 6600 0    60   BiDi ~ 0
 GPIO-A
