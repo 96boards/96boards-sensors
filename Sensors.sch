@@ -36,7 +36,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "96Boards Sensors"
-Date "2 Aug 2015"
+Date "14 Aug 2015"
 Rev "A"
 Comp ""
 Comment1 ""
@@ -910,7 +910,7 @@ F 3 "" H 5250 750 30  0000 C CNN
 $EndComp
 Text GLabel 5100 600  0    60   Input ~ 0
 +5V
-Text GLabel 4650 1300 0    60   Input ~ 0
+Text GLabel 4600 1300 0    60   Input ~ 0
 RESET
 $Comp
 L R R6
@@ -1704,7 +1704,7 @@ Connection ~ 8550 1150
 Connection ~ 5250 600 
 Connection ~ 5500 600 
 Wire Wire Line
-	4650 1300 5550 1300
+	4600 1300 5550 1300
 Connection ~ 5250 1300
 Connection ~ 5500 1300
 Wire Wire Line
@@ -1971,24 +1971,19 @@ F 3 "" H 5500 2000 60  0000 C CNN
 	1    5500 2000
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5250 900  5250 1450
 $Comp
 L R R13
 U 1 1 55CA5435
-P 4950 1850
-F 0 "R13" V 5030 1850 50  0000 C CNN
-F 1 "10K" V 4950 1850 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 4880 1850 30  0001 C CNN
-F 3 "" H 4950 1850 30  0000 C CNN
-	1    4950 1850
+P 4950 1750
+F 0 "R13" V 5030 1750 50  0000 C CNN
+F 1 "10K" V 4950 1750 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 4880 1750 30  0001 C CNN
+F 3 "" H 4950 1750 30  0000 C CNN
+	1    4950 1750
 	-1   0    0    1   
 $EndComp
-Text GLabel 4650 1700 0    60   Input ~ 0
-+1V8
 Wire Wire Line
 	5500 1900 5500 2000
-Connection ~ 5500 1950
 $Comp
 L C C15
 U 1 1 55CA8CA5
@@ -2116,32 +2111,44 @@ F 3 "" H 1000 5650 60  0000 C CNN
 	1    1000 5650
 	1    0    0    -1  
 $EndComp
-Text GLabel 4650 2000 0    60   Input ~ 0
+Text GLabel 4600 1600 0    60   Input ~ 0
 96UART0_RTS
-Wire Wire Line
-	4650 2000 5250 2000
 Text GLabel 5400 5900 0    60   Output ~ 0
 96UART0_RTS
 Wire Wire Line
 	5550 5900 5400 5900
 NoConn ~ 5550 6800
 $Comp
-L BSS138 Q1
-U 1 1 55CD59CE
-P 5150 1650
-F 0 "Q1" H 4800 1850 50  0000 L CNN
-F 1 "BSS138" H 4800 1750 50  0000 L CNN
-F 2 "Sensors:SOT323" H 4400 2350 50  0000 L CIN
-F 3 "" H 5150 1650 50  0000 L CNN
-	1    5150 1650
+L S8050 Q1
+U 1 1 55CE16C0
+P 5150 1600
+F 0 "Q1" H 4900 1850 50  0000 L CNN
+F 1 "S8050" H 4900 1750 50  0000 L CNN
+F 2 "Sensors2:SOT-23_Seeed" H 5350 1525 50  0001 L CIN
+F 3 "" H 5150 1600 50  0000 L CNN
+	1    5150 1600
 	1    0    0    -1  
 $EndComp
-Connection ~ 4950 2000
 Wire Wire Line
-	5250 2000 5250 1850
+	4950 1900 5500 1900
+Connection ~ 5500 1900
 Wire Wire Line
-	4650 1700 4950 1700
-Connection ~ 4950 1700
-Connection ~ 5250 1450
-Connection ~ 5250 1850
+	5250 900  5250 1400
+$Comp
+L R R16
+U 1 1 55CE27C1
+P 4750 1600
+F 0 "R16" V 4830 1600 50  0000 C CNN
+F 1 "620R" V 4750 1600 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 4680 1600 30  0001 C CNN
+F 3 "" H 4750 1600 30  0000 C CNN
+	1    4750 1600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4900 1600 4950 1600
+Connection ~ 4950 1600
+Wire Wire Line
+	5250 1800 5250 1900
+Connection ~ 5250 1900
 $EndSCHEMATC
