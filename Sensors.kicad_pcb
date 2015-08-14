@@ -1,9 +1,9 @@
 (kicad_pcb (version 4) (host pcbnew no-vcs-found-product)
 
   (general
-    (links 0)
+    (links 215)
     (no_connects 0)
-    (area 101.549999 72.949999 186.649493 127.050001)
+    (area 98.403229 72.023199 187.233753 131.445)
     (thickness 1.6)
     (drawings 30)
     (tracks 1113)
@@ -74,8 +74,8 @@
     (grid_origin 101.6 127)
     (visible_elements FFFFFF7F)
     (pcbplotparams
-      (layerselection 0x010ec_80000001)
-      (usegerberextensions false)
+      (layerselection 0x010ff_80000001)
+      (usegerberextensions true)
       (excludeedgelayer true)
       (linewidth 0.100000)
       (plotframeref false)
@@ -92,12 +92,12 @@
       (plotvalue true)
       (plotinvisibletext false)
       (padsonsilk false)
-      (subtractmaskfromsilk false)
+      (subtractmaskfromsilk true)
       (outputformat 1)
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory "/Users/george/Desktop/GreyPlane/Sensors Project/Gerbers/"))
+      (outputdirectory ""))
   )
 
   (net 0 "")
