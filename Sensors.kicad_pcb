@@ -2902,7 +2902,7 @@
     )
   )
 
-  (module Sensors2:SOT-23_Seeed (layer F.Cu) (tedit 55CE1F24) (tstamp 55CBD2D2)
+  (module Sensors:SOT-23_Seeed (layer F.Cu) (tedit 55CE1F24) (tstamp 55CBD2D2)
     (at 159.004 94.996 180)
     (descr "SOT-23, Standard")
     (tags SOT-23)
@@ -2965,7 +2965,7 @@
     )
   )
 
-  (module Sensors2:SOT-23_Seeed (layer F.Cu) (tedit 55CE1E1E) (tstamp 55CD33DC)
+  (module Sensors:SOT-23_Seeed (layer F.Cu) (tedit 55CE1E1E) (tstamp 55CD33DC)
     (at 138.811 121.285)
     (descr "SOT-23, Standard")
     (tags SOT-23)
