@@ -2149,7 +2149,7 @@
     (fp_text reference U4 (at 4.191 1.27 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value S8050-3.3 (at 0 0 90) (layer F.SilkS) hide
+    (fp_text value CJT1117-3.3 (at 0 0 90) (layer F.SilkS) hide
       (effects (font (size 1 0.9) (thickness 0.05)))
     )
     (fp_line (start 3.277 -1.778) (end 3.277 1.778) (layer F.SilkS) (width 0.2032))
