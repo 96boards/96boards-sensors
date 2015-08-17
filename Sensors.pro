@@ -1,4 +1,4 @@
-update=Friday, August 14, 2015 'PMt' 01:36:05 PM
+update=Mon 17 Aug 2015 17:23:23 BST
 version=1
 last_client=kicad
 [pcbnew]
@@ -58,7 +58,6 @@ LibName26=opto
 LibName27=atmel
 LibName28=contrib
 LibName29=valves
-LibName30=GPlib
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
