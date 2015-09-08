@@ -1,22 +1,20 @@
 /*
-  Blink
-  Turns on an LED on for one second, then off for one second, repeatedly.
+  BlinkAll
+  Flash LEDs connected to all the IO lines, and generate some traffic on the UART
  
   This example code is in the public domain.
  */
  
-// Pin 13 has an LED connected on most Arduino boards.
-// give it a name:
 int led_on = 13;
 int led_off = 7;
 char message[] = "Received character ' '";
 
 // the setup routine runs once when you press reset:
-void setup() {                
+void setup() {
   int i;
-  // initialize the digital pin as an output.
-  for (i = 2; i < 14; i++)
-      pinMode(i, OUTPUT);     
+  // initialize the digital pins as outputs.
+  for (i = 2; i <= A6; i++)
+      pinMode(i, OUTPUT);
    Serial.begin(9600);
    Serial.println("Press a key, and I will echo it back");
 }
@@ -28,11 +26,11 @@ void loop() {
     Serial.println(message);
   }
   digitalWrite(led_on++, HIGH);   // turn the LED on (HIGH is the voltage level)
-  if (led_on > 13)
+  if (led_on > A6)
     led_on = 2;
-  delay(100);               // wait for a second
+  delay(50);
   digitalWrite(led_off++, LOW);    // turn the LED off by making the voltage LOW
-  if (led_off > 13)
+  if (led_off > A6)
     led_off = 2;
-  delay(100);               // wait for a second
+  delay(50);
 }
