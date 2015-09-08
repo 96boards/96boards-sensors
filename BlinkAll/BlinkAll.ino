@@ -9,6 +9,7 @@
 // give it a name:
 int led_on = 13;
 int led_off = 7;
+char message[] = "Received character ' '";
 
 // the setup routine runs once when you press reset:
 void setup() {                
@@ -16,10 +17,16 @@ void setup() {
   // initialize the digital pin as an output.
   for (i = 2; i < 14; i++)
       pinMode(i, OUTPUT);     
+   Serial.begin(9600);
+   Serial.println("Press a key, and I will echo it back");
 }
 
 // the loop routine runs over and over again forever:
 void loop() {
+  if (Serial.available()) {
+    message[20] = Serial.read();
+    Serial.println(message);
+  }
   digitalWrite(led_on++, HIGH);   // turn the LED on (HIGH is the voltage level)
   if (led_on > 13)
     led_on = 2;
