@@ -19,4 +19,9 @@
   (pad 2 thru_hole circle (at -1 2.54) (size 1.524 1.524) (drill 0.8) (layers *.Cu *.Mask F.SilkS))
   (pad 3 thru_hole circle (at 1 2.54) (size 1.524 1.524) (drill 0.8) (layers *.Cu *.Mask F.SilkS))
   (pad 4 thru_hole circle (at 3 2.54) (size 1.524 1.524) (drill 0.8) (layers *.Cu *.Mask F.SilkS))
+  (model Connectors_Molex.3dshapes/Connector_Molex_PicoBlade_53047-0410.wrl
+    (at (xyz 0 -0.0788 0))
+    (scale (xyz 1.5 1.5 1.5))
+    (rotate (xyz 0 0 0))
+  )
 )
