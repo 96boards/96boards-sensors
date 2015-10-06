@@ -1584,21 +1584,10 @@ NoConn ~ 3950 4050
 NoConn ~ 3050 7350
 NoConn ~ 2050 7350
 NoConn ~ 5550 5600
-NoConn ~ 5550 6900
-NoConn ~ 5550 7000
-NoConn ~ 5550 7100
-NoConn ~ 6050 5800
-NoConn ~ 6050 5900
-NoConn ~ 6050 6000
-NoConn ~ 6050 6100
 NoConn ~ 6050 6200
 NoConn ~ 6050 6300
 NoConn ~ 6050 6400
 NoConn ~ 6050 6500
-NoConn ~ 6050 6800
-NoConn ~ 6050 6900
-NoConn ~ 6050 7000
-NoConn ~ 6050 7100
 Wire Wire Line
 	10600 4550 10700 4550
 Wire Wire Line
@@ -2278,7 +2267,6 @@ Text GLabel 5400 5900 0    60   Output ~ 0
 96UART0_RTS
 Wire Wire Line
 	5550 5900 5400 5900
-NoConn ~ 5550 6800
 $Comp
 L BC817-40 Q1
 U 1 1 55CE16C0
@@ -2323,4 +2311,52 @@ Wire Wire Line
 Connection ~ 6250 1350
 Wire Wire Line
 	6500 600  6700 600 
+Text GLabel 6200 5800 2    60   Output ~ 0
+SPI0_SCK
+Text GLabel 6200 5900 2    60   Input ~ 0
+SPI0_MISO
+Text GLabel 6200 6000 2    60   Output ~ 0
+SPI0_CS
+Text GLabel 6200 6100 2    60   Output ~ 0
+SPI0_MOSI
+Wire Wire Line
+	6050 5800 6200 5800
+Wire Wire Line
+	6050 5900 6200 5900
+Wire Wire Line
+	6050 6000 6200 6000
+Wire Wire Line
+	6050 6100 6200 6100
+Text GLabel 6200 6800 2    60   BiDi ~ 0
+GPIO-F
+Text GLabel 6200 6900 2    60   BiDi ~ 0
+GPIO-H
+Text GLabel 6200 7000 2    60   BiDi ~ 0
+GPIO-J
+Text GLabel 6200 7100 2    60   BiDi ~ 0
+GPIO-L
+Wire Wire Line
+	6050 6800 6200 6800
+Wire Wire Line
+	6050 6900 6200 6900
+Wire Wire Line
+	6050 7000 6200 7000
+Wire Wire Line
+	6050 7100 6200 7100
+Text GLabel 5400 6800 0    60   BiDi ~ 0
+GPIO-E
+Text GLabel 5400 6900 0    60   BiDi ~ 0
+GPIO-G
+Text GLabel 5400 7000 0    60   BiDi ~ 0
+GPIO-I
+Text GLabel 5400 7100 0    60   BiDi ~ 0
+GPIO-K
+Wire Wire Line
+	5400 6800 5550 6800
+Wire Wire Line
+	5400 6900 5550 6900
+Wire Wire Line
+	5400 7000 5550 7000
+Wire Wire Line
+	5400 7100 5550 7100
 $EndSCHEMATC
