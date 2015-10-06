@@ -1103,7 +1103,7 @@
   )
 
   (module Pin_Headers:Pin_Header_Straight_2x03 placed (layer F.Cu) (tedit 55CA5AE0) (tstamp 55C672AD)
-    (at 177.8 75.565 270)
+    (at 148.59 120.777 270)
     (descr "Through hole pin header")
     (tags "pin header")
     (path /55BC038D)
