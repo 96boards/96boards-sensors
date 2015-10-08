@@ -413,13 +413,13 @@ Text GLabel 9600 1400 0    60   Input ~ 0
 Text GLabel 9600 6050 0    60   Input ~ 0
 +5V
 Text GLabel 10650 4450 0    60   BiDi ~ 0
-PC4/SDA
+PC4_SDA
 Text GLabel 10650 4350 0    60   BiDi ~ 0
-PC5/SCL
+PC5_SCL
 Text GLabel 9600 4350 0    60   BiDi ~ 0
-PC5/SCL
+PC5_SCL
 Text GLabel 9600 4450 0    60   BiDi ~ 0
-PC4/SDA
+PC4_SDA
 Text GLabel 10650 3800 0    60   Input ~ 0
 +5V
 Text GLabel 10650 3700 0    60   Output ~ 0
@@ -447,9 +447,9 @@ PD5
 Text GLabel 10650 1200 0    60   BiDi ~ 0
 PD4
 Text GLabel 9600 1300 0    60   BiDi ~ 0
-PD3/INT1
+PD3_INT1
 Text GLabel 9600 1200 0    60   BiDi ~ 0
-PD2/INT0
+PD2_INT0
 Text GLabel 7550 3250 2    60   BiDi ~ 0
 PC0
 Text GLabel 7550 3350 2    60   BiDi ~ 0
@@ -459,21 +459,21 @@ PC2
 Text GLabel 7550 3550 2    60   BiDi ~ 0
 PC3
 Text GLabel 7550 3650 2    60   BiDi ~ 0
-PC4/SDA
+PC4_SDA
 Text GLabel 7550 3750 2    60   BiDi ~ 0
-PC5/SCL
+PC5_SCL
 Text GLabel 5450 3850 0    60   Input ~ 0
 ADC7
 Text GLabel 5450 3750 0    60   Input ~ 0
 ADC6
 Text GLabel 3250 3100 0    60   BiDi ~ 0
-PD2/INT0
+PD2_INT0
 Text GLabel 3250 3300 0    60   BiDi ~ 0
-PD0/RX
+PD0_RX
 Text GLabel 3250 3200 0    60   BiDi ~ 0
-PD1/TX
+PD1_TX
 Text GLabel 3250 3000 0    60   BiDi ~ 0
-PD3/INT1
+PD3_INT1
 Text GLabel 3250 2900 0    60   BiDi ~ 0
 PD4
 Text GLabel 3250 2800 0    60   BiDi ~ 0
@@ -489,11 +489,11 @@ PB1
 Text GLabel 3250 2150 0    60   BiDi ~ 0
 PB2
 Text GLabel 3250 2050 0    60   BiDi ~ 0
-PB3/MOSI
+PB3_MOSI
 Text GLabel 3250 1950 0    60   BiDi ~ 0
-PB4/MISO
+PB4_MISO
 Text GLabel 3250 1850 0    60   BiDi ~ 0
-PB5/SCK
+PB5_SCK
 $Comp
 L GND #PWR012
 U 1 1 55BE4806
@@ -508,9 +508,9 @@ $EndComp
 Text GLabel 3250 1650 0    60   Input ~ 0
 AREF
 Text GLabel 3250 1550 0    60   BiDi ~ 0
-PC4/SDA
+PC4_SDA
 Text GLabel 3250 1450 0    60   BiDi ~ 0
-PC5/SCL
+PC5_SCL
 Text GLabel 1600 2750 0    60   BiDi ~ 0
 PC0
 Text GLabel 1600 2850 0    60   BiDi ~ 0
@@ -520,9 +520,9 @@ PC2
 Text GLabel 1600 3050 0    60   BiDi ~ 0
 PC3
 Text GLabel 1600 3150 0    60   BiDi ~ 0
-PC4/SDA
+PC4_SDA
 Text GLabel 1600 3250 0    60   BiDi ~ 0
-PC5/SCL
+PC5_SCL
 Text GLabel 1600 1800 0    60   BiDi ~ 0
 ADC6
 Text GLabel 1600 1900 0    60   Input ~ 0
@@ -553,11 +553,11 @@ PB1
 Text GLabel 7550 2600 2    60   BiDi ~ 0
 PB2
 Text GLabel 7550 2700 2    60   BiDi ~ 0
-PB3/MOSI
+PB3_MOSI
 Text GLabel 7550 2800 2    60   BiDi ~ 0
-PB4/MISO
+PB4_MISO
 Text GLabel 7550 2900 2    60   BiDi ~ 0
-PB5/SCK
+PB5_SCK
 $Comp
 L C C8
 U 1 1 55BE5DA4
@@ -697,13 +697,13 @@ F 3 "" H 5450 4750 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 7550 4000 2    60   BiDi ~ 0
-PD0/RX
+PD0_RX
 Text GLabel 7550 4100 2    60   BiDi ~ 0
-PD1/TX
+PD1_TX
 Text GLabel 7550 4200 2    60   BiDi ~ 0
-PD2/INT0
+PD2_INT0
 Text GLabel 7550 4300 2    60   BiDi ~ 0
-PD3/INT1
+PD3_INT1
 Text GLabel 7550 4400 2    60   BiDi ~ 0
 PD4
 Text GLabel 7550 4500 2    60   BiDi ~ 0
@@ -755,9 +755,9 @@ F 3 "" H 3100 6350 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 3100 6150 2    60   BiDi ~ 0
-PD1/TX
+PD1_TX
 Text GLabel 3100 6250 2    60   BiDi ~ 0
-PD0/RX
+PD0_RX
 Text GLabel 1900 6350 0    60   Input ~ 0
 +1V8
 $Comp
@@ -1002,13 +1002,13 @@ F 5 "Taifeng" H 3550 50  60  0001 C CNN "Mfr"
 	1    0    0    -1  
 $EndComp
 Text GLabel 9600 5850 0    60   BiDi ~ 0
-I2C0_SCL/5
+I2C0_SCL_5
 Text GLabel 9600 5950 0    60   BiDi ~ 0
-I2C0_SDA/5
+I2C0_SDA_5
 Text GLabel 10650 5850 0    60   BiDi ~ 0
-I2C1_SCL/5
+I2C1_SCL_5
 Text GLabel 10650 5950 0    60   BiDi ~ 0
-I2C1_SDA/5
+I2C1_SDA_5
 $Comp
 L TXS0108E U2
 U 1 1 55C4F4C8
@@ -1032,13 +1032,13 @@ GPIO-C
 Text GLabel 1850 7000 0    60   BiDi ~ 0
 GPIO-D
 Text GLabel 3100 5650 2    60   BiDi ~ 0
-GPIO-A/5
+GPIO-A_5
 Text GLabel 3100 5450 2    60   BiDi ~ 0
-GPIO-B/5
+GPIO-B_5
 Text GLabel 3800 7100 2    60   BiDi ~ 0
-GPIO-C/5
+GPIO-C_5
 Text GLabel 3800 7000 2    60   BiDi ~ 0
-GPIO-D/5
+GPIO-D_5
 Text GLabel 1850 7400 0    60   BiDi ~ 0
 I2C0_SDA
 Text GLabel 1850 7500 0    60   BiDi ~ 0
@@ -1048,13 +1048,13 @@ I2C1_SDA
 Text GLabel 1850 7300 0    60   BiDi ~ 0
 I2C1_SCL
 Text GLabel 3800 7400 2    60   BiDi ~ 0
-I2C0_SDA/5
+I2C0_SDA_5
 Text GLabel 3800 7500 2    60   BiDi ~ 0
-I2C0_SCL/5
+I2C0_SCL_5
 Text GLabel 3800 7200 2    60   BiDi ~ 0
-I2C1_SDA/5
+I2C1_SDA_5
 Text GLabel 3800 7300 2    60   BiDi ~ 0
-I2C1_SCL/5
+I2C1_SCL_5
 Text GLabel 900  6800 0    60   Input ~ 0
 +1V8
 Text GLabel 1850 7600 0    60   Input ~ 0
@@ -1191,11 +1191,11 @@ Text GLabel 8550 5300 0    60   Input ~ 0
 Text GLabel 9600 5300 0    60   Input ~ 0
 +5V
 Text GLabel 9600 5100 0    60   BiDi ~ 0
-GPIO-C/5
+GPIO-C_5
 Text GLabel 9600 5200 0    60   BiDi ~ 0
-GPIO-D/5
+GPIO-D_5
 Text GLabel 7700 5850 0    60   BiDi ~ 0
-GPIO-A/5
+GPIO-A_5
 $Comp
 L R R10
 U 1 1 55C54487
@@ -1225,7 +1225,7 @@ F 6 "RC0603JR-07620RL" H 1900 700 60  0001 C CNN "Mfr Part #"
 	0    1    1    0   
 $EndComp
 Text GLabel 7700 6050 0    60   BiDi ~ 0
-GPIO-B/5
+GPIO-B_5
 $Comp
 L LED D4
 U 1 1 55C54742
@@ -1255,9 +1255,9 @@ F 6 "19-217-G7C-AN1P2-3T" H 2450 1450 60  0001 C CNN "Mfr Part #"
 	-1   0    0    -1  
 $EndComp
 Text GLabel 8550 5200 0    60   BiDi ~ 0
-GPIO-B/5
+GPIO-B_5
 Text GLabel 8550 5100 0    60   BiDi ~ 0
-GPIO-A/5
+GPIO-A_5
 $Comp
 L GND #PWR035
 U 1 1 55C55EA3
@@ -1312,7 +1312,7 @@ F 6 "19-217-R6C-AL1M2VY-3T" H 2000 850 60  0001 C CNN "Mfr Part #"
 	0    -1   -1   0   
 $EndComp
 Text GLabel 6250 600  2    60   Input ~ 0
-PB5/SCK
+PB5_SCK
 Text GLabel 5400 6000 0    60   Output ~ 0
 96UART1_TX
 Text GLabel 5400 6100 0    60   Input ~ 0
@@ -1771,13 +1771,13 @@ SPI0_MOSI_5
 Text GLabel 1850 6700 0    60   BiDi ~ 0
 GPIO-F
 Text GLabel 3800 6700 2    60   BiDi ~ 0
-GPIO-F/5
+GPIO-F_5
 Text GLabel 3950 4050 2    60   Output ~ 0
 96UART1_RTS
 Text GLabel 1850 6900 0    60   BiDi ~ 0
 GPIO-E
 Text GLabel 3800 6900 2    60   BiDi ~ 0
-GPIO-E/5
+GPIO-E_5
 $Comp
 L CONN_01X02 P7
 U 1 1 561584BD
@@ -2497,9 +2497,9 @@ $EndComp
 Text GLabel 10650 5300 0    60   Input ~ 0
 +5V
 Text GLabel 10650 5100 0    60   BiDi ~ 0
-GPIO-E/5
+GPIO-E_5
 Text GLabel 10650 5200 0    60   BiDi ~ 0
-GPIO-F/5
+GPIO-F_5
 Wire Wire Line
 	10650 5200 10700 5200
 Wire Wire Line
