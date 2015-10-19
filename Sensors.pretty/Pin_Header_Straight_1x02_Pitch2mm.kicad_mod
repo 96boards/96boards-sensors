@@ -21,8 +21,8 @@
   (pad 1 thru_hole rect (at 0 0) (size 1.2 1.2) (drill 0.8) (layers *.Cu *.Mask F.SilkS))
   (pad 2 thru_hole oval (at 0 2) (size 1.2 1.2) (drill 0.8) (layers *.Cu *.Mask F.SilkS))
   (model Pin_Headers.3dshapes/Pin_Header_Straight_1x02.wrl
-    (at (xyz 0 -0.05 0))
-    (scale (xyz 1 1 1))
+    (at (xyz 0 -0.03937 0))
+    (scale (xyz 0.787 0.787 0.787))
     (rotate (xyz 0 0 90))
   )
 )
