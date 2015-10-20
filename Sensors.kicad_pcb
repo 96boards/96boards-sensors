@@ -3,7 +3,7 @@
   (general
     (links 254)
     (no_connects 0)
-    (area 99.949999 49.949999 185.049493 104.050001)
+    (area 87.000001 35.3 196.035715 139.820001)
     (thickness 1.6)
     (drawings 41)
     (tracks 1457)
@@ -15,8 +15,8 @@
   (page A4)
   (title_block
     (title "96Boards Sensors")
-    (date 2015-08-08)
-    (rev A)
+    (date 2015-10-20)
+    (rev B)
     (company "Linaro Ltd")
   )
 
