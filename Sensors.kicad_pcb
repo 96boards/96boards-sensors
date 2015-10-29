@@ -5,7 +5,7 @@
     (no_connects 0)
     (area 99.949999 49.949999 185.049493 104.050001)
     (thickness 1.6)
-    (drawings 75)
+    (drawings 78)
     (tracks 1546)
     (zones 0)
     (modules 92)
@@ -3679,6 +3679,9 @@
       (xy -1.303127 -0.13137) (xy -1.296978 -0.069892) (xy -1.29589 0) (xy -1.29589 0)) (layer F.SilkS) (width 0.1))
   )
 
+  (gr_circle (center 153.66 64.25) (end 153.88 64.02) (layer F.SilkS) (width 0.2) (tstamp 5632648F))
+  (gr_circle (center 135.42 59.77) (end 135.64 59.54) (layer F.SilkS) (width 0.2) (tstamp 56326484))
+  (gr_circle (center 126.55 59.8) (end 126.77 59.57) (layer F.SilkS) (width 0.2))
   (dimension 13 (width 0.3) (layer F.Fab)
     (gr_text "13 mm" (at 106.5 111.73) (layer F.Fab)
       (effects (font (size 1.5 1.5) (thickness 0.3)))
