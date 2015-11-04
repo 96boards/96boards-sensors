@@ -8,7 +8,6 @@ OUTPUT_EXTS = -B_Cu.gbl \
 	      -F_Paste.gtp \
 	      -Edge_Cuts.gko \
 	      .drl \
-	      -NPTH.drl \
 	      -all.pos
 
 OUTPUTS = $(addprefix gerbers/$(PROJECT_NAME),$(OUTPUT_EXTS))
