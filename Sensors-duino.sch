@@ -36,9 +36,9 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 2
 Title "96Boards Sensors"
-Date "14 Aug 2015"
-Rev "A"
-Comp ""
+Date "2015-11-29"
+Rev "C"
+Comp "Linaro Ltd."
 Comment1 ""
 Comment2 ""
 Comment3 ""
