@@ -37,7 +37,7 @@
 
     <!-- for table head and empty table fields-->
     <xsl:key name="headentr" match="field" use="@name"/>
-    <xsl:key name="comp" match="comp" use="concat(value, '|', footprint, '|', fields/field[@name='Seeed SKU'], '|', fields/field[@name='Mfr Part #'])"/>
+    <xsl:key name="comp" match="comp" use="concat(value, '|', footprint, '|', fields/field[@name='Seeed SKU'], '|', fields/field[@name='manf#'])"/>
 
     <!-- main part -->
     <xsl:template match="/export">
@@ -56,16 +56,16 @@
 
     <!-- the table entries -->
     <xsl:template match="components">
-        <xsl:for-each select="comp[generate-id(.) = generate-id(key('comp', concat(value, '|', footprint, '|', fields/field[@name='Seeed SKU'], '|', fields/field[@name='Mfr Part #']))[1])]">
+        <xsl:for-each select="comp[generate-id(.) = generate-id(key('comp', concat(value, '|', footprint, '|', fields/field[@name='Seeed SKU'], '|', fields/field[@name='manf#']))[1])]">
 	    <xsl:sort select="@ref"/>
-            <xsl:variable name="SKU" select="concat(value, '|', footprint, '|', fields/field[@name='Seeed SKU'], '|', fields/field[@name='Mfr Part #'])" />
+            <xsl:variable name="SKU" select="concat(value, '|', footprint, '|', fields/field[@name='Seeed SKU'], '|', fields/field[@name='manf#'])" />
             <xsl:for-each select="key('comp', $SKU)">
 	        <xsl:sort select="translate(@ref, translate(@ref, '0123456789', ''), '')" data-type="number"/>
                 <xsl:if test="position() != 1"><xsl:text> </xsl:text></xsl:if>
                 <xsl:value-of select="@ref"/>
             </xsl:for-each>
             <xsl:text>,</xsl:text>
-            <xsl:value-of select="count(key('comp', concat(value, '|', footprint, '|', fields/field[@name='Seeed SKU'], '|', fields/field[@name='Mfr Part #'])))"/><xsl:text>,</xsl:text>
+            <xsl:value-of select="count(key('comp', concat(value, '|', footprint, '|', fields/field[@name='Seeed SKU'], '|', fields/field[@name='manf#'])))"/><xsl:text>,</xsl:text>
             <xsl:value-of select="value"/><xsl:text>,</xsl:text>
             <xsl:value-of select="footprint"/><xsl:text>,</xsl:text>
             <xsl:value-of select="datasheet"/>
