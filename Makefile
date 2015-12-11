@@ -1,12 +1,12 @@
 PROJECT_NAME = Sensors
-OUTPUT_EXTS = -B_Cu.gbl \
-	      -B_Mask.gbs \
-	      -B_Paste.gbp \
-	      -F_Cu.gtl \
-	      -F_Mask.gts \
-	      -F_SilkS.gto \
-	      -F_Paste.gtp \
-	      -Edge_Cuts.gko \
+OUTPUT_EXTS = -B.Cu.gbl \
+	      -B.Mask.gbs \
+	      -B.Paste.gbp \
+	      -F.Cu.gtl \
+	      -F.Mask.gts \
+	      -F.SilkS.gto \
+	      -F.Paste.gtp \
+	      -Edge.Cuts.gm1 \
 	      .drl \
 	      -all.pos
 
