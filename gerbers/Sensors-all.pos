@@ -1,5 +1,5 @@
-### Module positions - created on Tue 15 Dec 2015 02:37:40 GMT ###
-### Printed by Pcbnew version kicad 4.0.1-2.201512121406+6195~38~ubuntu15.04.1-stable
+### Module positions - created on Sun 21 Feb 2016 15:56:31 GMT ###
+### Printed by Pcbnew version kicad 4.0.1-4.201602120846+6195~38~ubuntu15.10.1-stable
 ## Unit = mm, Angle = deg.
 ## Side : All
 # Ref    Val                  Package         PosX       PosY        Rot     Side
@@ -28,8 +28,6 @@ D1       RESET            LED-0603           82.9875   -39.0625     180.0    top
 D2       PWR              LED-0603           82.9875   -40.7625     180.0    top
 D3       GROVE            Grove_SMD_Connec   76.6000   -44.0000       0.0    top
 D8       PB5              LED-0603           48.9500   -52.0000      90.0    top
-D9       A                LED-0603           36.4000   -52.0000      90.0    top
-D10      B                LED-0603           38.3000   -52.0000      90.0    top
 G2       EF               Grove_SMD_Connec   56.6000   -44.0000       0.0    top
 IC1      ATMEGA328P       TQFP-32_7x7mm_Pi   43.9150   -34.0950      90.0    top
 P8       I2C0             Grove_SMD_Connec   28.4000   -44.0000       0.0    top
@@ -51,8 +49,6 @@ R9       10K              R_0603_Seeed       55.6200   -17.5100       0.0    top
 R10      22R              R_0603_Seeed       56.3000    -6.9000      90.0    top
 R11      220R             R_0603_Seeed       58.3400   -17.5100     180.0    top
 R12      220R             R_0603_Seeed       52.0500    -6.9250     270.0    top
-R13      1K               R_0603_Seeed       34.9750   -39.0750      90.0    top
-R14      1K               R_0603_Seeed       36.7250   -39.0750      90.0    top
 R16      10K              R_0603_Seeed       31.6000    -8.4000     270.0    top
 R17      10K              R_0603_Seeed       29.9000    -8.4000     270.0    top
 R18      10K              R_0603_Seeed       30.3850   -18.1000       0.0    top
