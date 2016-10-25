@@ -12,7 +12,6 @@ OUTPUT_EXTS = -B.Cu.gbl \
 
 OUTPUTS = $(addprefix gerbers/$(PROJECT_NAME),$(OUTPUT_EXTS))
 OUTPUTS += $(PROJECT_NAME)-ft230x.xml
-OUTPUTS += $(PROJECT_NAME).csv
 OUTPUTS += $(PROJECT_NAME)-bom-test.xlsx
 OUTPUTS += $(PROJECT_NAME).pdf
 OUTPUTS += $(PROJECT_NAME)-layout.pdf
